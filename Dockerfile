@@ -6,8 +6,8 @@ RUN apt-get update
 
 RUN apt-get install -y wget apache2 unzip
 
-RUN wget https://github.com/joaquinito01/Xtream-Codes-2.2.0-Nulled/raw/master/xt-2.2.0-nulled.sh
+RUN wget https://raw.githubusercontent.com/FirezYT/xtream-codes-fixed/master/install.sh
 
-RUN chmod a+x xt-2.2.0-nulled.sh
+RUN chmod a+x install.sh
 
-RUN ./xt-2.2.0-nulled.sh
+RUN ./install.sh
